@@ -1,0 +1,637 @@
+body {
+    line-height: 1.5;
+    
+}
+
+.padding-16 {
+    padding: 0px 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.left-section{
+    background-color: #ccc;
+}
+.right-coloumn{
+    background-color: #ccc;
+}
+.icon-paraent{
+    display: flex;
+    justify-content: center;
+    margin-top: 223px;
+}
+.text-grey {
+    color: gray;
+}
+
+/* .container {
+    max-width: 1100px;
+} */
+
+.main-display {
+    background-color: #fff !important;
+}
+
+.text-large {
+    font-size: 24px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.margin-right {
+    margin-right: 16px;
+}
+
+.text-jumbo {
+    font-size: 70px;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+.black-theme {
+    color: #fff;
+    background-color: #000;
+}
+
+/* ==============icon-bar section============ */
+.bg-black {
+    background-color: #000;
+}
+
+.bg-sky {
+    background-color: rgb(0, 200, 255);
+}
+
+.bg-pink {
+    background-color: rgb(227, 70, 164);
+}
+
+.bg-yellow {
+    background-color: rgb(246, 246, 44);
+}
+
+.bg-gray {
+    background-color: rgb(165, 163, 163);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-purple {
+    background-color: rgb(129, 10, 169);
+    color: yellow;
+}
+
+.bg-orange {
+    background-color: orange;
+    color: green;
+}
+
+.bg-red {
+    background-color: red;
+    color: yellow;
+}
+
+.bg-pink {
+    background-color: pink;
+    color: purple;
+}
+/* 
+.icon-bar i {
+    margin-bottom: 8px;
+} */
+
+.icon-bar {
+    background-color: white;
+    padding: 14px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    padding: 11px 13px;
+}
+
+.two {
+    padding: 9px 10px;
+}
+
+.three {
+    padding: 10px 11px;
+}
+
+.four{
+    padding: 9px 9px;
+}
+
+.five {
+    padding: 10px 10px;
+}
+
+.six {
+    padding: 10px 8px;
+}
+
+.seven {
+    padding: 10px 9px;
+}
+
+.eight{
+    padding: 10px 10px;
+}
+
+.nine{
+    padding: 10px 10px;
+}
+
+/* ------------header section----------------- */
+.text-f {
+    border: 2px solid black;
+    padding: 0px 25px;
+    border-radius: 50%;
+}
+
+.header-text {
+    letter-spacing: 6px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+/* ----------------------sky section---------------- */
+.sky-section {
+    background-color: rgb(0,172,238);
+    clip-path: polygon(0 150px, 100% 0px, 100% 85%, 0 100%);
+    padding-bottom: 200px;
+    padding-top: 170px;
+}
+
+.sky-para {
+    font-size: 14px;
+}
+
+.text-100 {
+    font-size: 100px;
+}
+
+.dark-sky-section {
+    background-color: rgb(77,133,208);
+    clip-path: polygon(0 150px, 100% 0px, 100% 80%, 0 100%);
+    margin-top: -150px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+/* ===================pink section==================== */
+.pink-section {
+    background-color: rgb(253, 40, 136) !important;
+    margin-top: -150px !important;
+    clip-path: polygon(0 150px, 100% 0px, 100% 90%, 0 100%);
+    padding-bottom: 200px;
+    padding-top: 170px;
+}
+
+.heart {
+    clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z');
+}
+
+.main-slider {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#slider1.owl-theme .owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0;
+    transform: translateY(-40%)
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 30px;
+}
+
+.owl-carousel .owl-nav button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+    background-color: rgb(169, 160, 160) !important;
+    transition: .5s;
+}
+
+.owl-carousel .owl-nav button:hover {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#slider1.owl-carousel .owl-nav button span {
+    color: rgb(233, 36, 125) !important;
+    font-size: 50px !important;
+    position: absolute;
+    font-weight: bolder;
+    bottom: -8pt !important;
+    left: 10px !important;
+    right: 11px !important;
+    opacity: 1;
+    transition: .5s;
+}
+
+.owl-carousel .owl-nav button:hover span {
+    color: black !important;
+}
+
+#slider1.owl-theme .owl-dots {
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: 2px solid #fff;
+    background-color: transparent;
+    transition: .5s;
+    width: 15px;
+    height: 15px;
+    border-radius: 0px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background-color: #fff !important;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #fff !important;
+}
+
+.img {
+    width: 450px !important;
+    vertical-align: middle;
+}
+
+.globe {
+    padding: 8px 12px 0px 12px;
+    font-size: 25px;
+    border-radius: 0px 0px 100% 100%;
+}
+
+.slider-text {
+    line-height: 1;
+}
+
+.slider-button {
+    background-color: #fff;
+    color: rgb(233, 36, 125) !important;
+    padding: 6px 16px;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+.slider-button:hover {
+    color: #fff !important;
+    background-color: rgb(233, 36, 125) !important;
+}
+
+.icon-slider {
+    padding: 10px 12px 10px 12px;
+    border-radius: 0px 0px 50% 50%;
+}
+
+/* ===================dark yellow section========== */
+.small-yellow-click-path {
+    background-color: rgb(227, 166, 53);
+    clip-path: polygon(0 150px, 100% 0px, 100% 80%, 0 100%);
+    margin-top: -150px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+/* ===================yellow section================== */
+.yellow-section {
+    background-color: rgb(255,243,51);
+    margin-top: -150px !important;
+    clip-path: polygon(0 150px, 100% 0px, 100% 95%, 0 100%);
+    padding-bottom: 130px;
+    padding-top: 170px;
+}
+
+.logo-img {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255,243,51)!important;
+}
+
+/* =============transparent section============ */
+.yellow-transparent {
+    background-image: linear-gradient(170deg, rgb(255, 255, 0), rgba(0, 0, 0, 0));
+    clip-path: polygon(0 150px, 100% 0px, 100% 30%, 0 100%);
+    margin-top: -50px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+.green-transparent {
+    background-image: linear-gradient(170deg, rgb(6, 119, 6), rgba(0, 255, 5, 0));
+    clip-path: polygon(0 150px, 100% 0px, 100% 40%, 0 100%);
+    margin-top: 300px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+/* =============background section================= */
+.background-img {
+    background-image: url(../image/lanet.jpeg);
+    clip-path: polygon(0 150px, 100% 0px, 100% 80%, 0 100%);
+    background-repeat: no-repeat;
+    margin-top: -150px !important;
+    background-size: cover;
+    padding-top: 0px;
+}
+
+/* ==============green section=============== */
+.green-section {
+    background-color: rgb(1,163,26);
+    margin-top: -150px !important;
+    clip-path: polygon(0 150px, 100% 0px, 100% 95%, 0 100%);
+    padding-bottom: 180px;
+    padding-top: 170px;
+}
+
+#slider2.owl-carousel .owl-nav button span {
+    color: green;
+    font-size: 50px !important;
+    position: absolute;
+    font-weight: bolder;
+    bottom: -8pt !important;
+    left: 10px !important;
+    right: 11px !important;
+    opacity: 1;
+    transition: .5s;
+}
+
+#slider2.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0;
+    transform: translateY(-50%)
+}
+
+.small-f {
+    border: 2px solid black;
+    padding: 1px 14px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
+.box-f {
+    background-color: #fff;
+    padding: 30px 6px 12px 6px;
+}
+
+.box-content {
+    padding: 10px;
+    border: 2px solid darkgreen;
+    position: relative;
+}
+.box-content::before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 0px 0;
+    z-index: 1;
+    border-color: transparent green transparent transparent;
+    top: 57%;
+    left: -11px;
+}
+.box-content::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18px 18px 0px 0;
+    z-index: -1;
+    border-color: transparent darkgreen transparent transparent;
+    top: 50%;
+    left: -18px;
+}
+
+/* ===================dark green section========== */
+.dark-green-section {
+    background-color: darkgreen;
+    clip-path: polygon(0 150px, 100% 0px, 100% 80%, 0 100%);
+    margin-top: -150px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+/* ================sky-blue section============= */
+.sky-blue-section {
+    background-color: rgb(0, 200, 255);
+    margin-top: -150px !important;
+    clip-path: polygon(0 150px, 100% 0px, 100% 95%, 0 100%);
+    padding-bottom: 150px;
+    padding-top: 170px;
+}
+
+#slider3.owl-carousel .owl-nav button span {
+    color: rgb(0, 200, 255);
+    font-size: 50px !important;
+    position: absolute;
+    font-weight: bolder;
+    bottom: -8pt !important;
+    left: 10px !important;
+    right: 11px !important;
+    opacity: 1;
+    transition: .5s;
+}
+
+#slider3.owl-theme .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0;
+    transform: translateY(-50%)
+}
+#slider3.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+/* =================google map section========== */
+.map {
+    overflow: hidden;
+    position: relative;
+    height: 800px;
+    clip-path: polygon(0 150px, 100% 0px, 100% 80%, 0 100%);
+    margin-top: -150px !important;
+    padding-top: 0px;
+    
+}
+.sky-transparent{
+    background-image: linear-gradient(170deg, rgb(0, 200, 255), rgba(0, 0, 0, 0.3));
+    clip-path: polygon(0 150px, 100% 0px, 100% 30%, 0 100%);
+    margin-top: 0px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+.gray-transparent{
+    background-image: linear-gradient(170deg, black, rgba(0, 0, 0, 0.3));
+    clip-path: polygon(0 150px, 100% 0px, 100% 35%, 0 100%);
+    margin-top: 350px !important;
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+.map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
+
+/* ===============black section================ */
+.black-section{
+    background-color: rgb(36, 35, 35);
+    margin-top: -160px !important;
+    clip-path: polygon(0 150px, 100% 0px, 100% 100%, 0 100%);
+    padding-bottom: 30px;
+    padding-top: 170px;
+}
+.blue{
+    color: rgb(0, 200, 255);
+}
+hr{
+    color: black;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+}
+.row>*{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.second-col-title{
+    white-space: nowrap;
+}
+.padding{
+    padding: 5px 0px!important;
+    background-color: rgb(120, 112, 112);
+    width: 98%;
+}
+.subscribe{
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(120, 112, 112);
+}
+.footer-icon-section{
+    white-space: nowrap;
+}
+.volg{
+    white-space: nowrap;
+}
+/* ==============media query section============== */
+@media(max-width:768px){
+    .icon-paraent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        height: 100%;
+    }
+    .icon-bar{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-section {
+        height: 100px;
+    }
+    .right-coloumn{
+        display: none;
+    }
+}
+@media(max-width:596px){
+    .icon-bar{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+@media screen and (min-width:601px) and (max-width:800px) {
+    .hide-img {
+        width: 220px !important;
+        vertical-align: middle;
+    }
+}
+@media screen and (min-width:577px) and (max-width:840px) {
+    .footer-second-col{
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:801px) and (max-width:1006px) {
+    .hide-img {
+        width: 300px !important;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .hide-img {
+        width: 160px !important;
+        vertical-align: middle;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .sky-section {
+        clip-path: polygon(0 150px, 100% 0px, 100% 90%, 0 100%);
+    }
+}
+
+@media screen and (max-width:601px) {
+    .owl-theme .owl-dots {
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .owl-theme .owl-dots {
+        position: absolute;
+        bottom: -40px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) {
+   .footer-icon-section{
+    padding-left: 100px;
+   }
+}
